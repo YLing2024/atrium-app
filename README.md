@@ -1,3 +1,5 @@
+[简体中文](README.md) ｜ [English](README.en.md)
+
 # atrium-app
 
 个人网站管理后台的 Android 客户端（Flutter），`atrium-console` 的移动端对应物。
