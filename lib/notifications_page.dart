@@ -454,9 +454,9 @@ class _NotificationsPageState extends State<NotificationsPage> {
         slivers: [
           SliverToBoxAdapter(child: _header(c)),
           if (_composeOpen) SliverToBoxAdapter(child: _composeSection(c)),
-          SliverToBoxAdapter(child: const Divider(height: 1)),
+          const SliverToBoxAdapter(child: Divider(height: 1)),
           SliverToBoxAdapter(child: _filterBar(c)),
-          SliverToBoxAdapter(child: const Divider(height: 1)),
+          const SliverToBoxAdapter(child: Divider(height: 1)),
           ..._bodySlivers(c),
         ],
       ),

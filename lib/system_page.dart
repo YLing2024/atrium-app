@@ -811,7 +811,7 @@ class _SystemPageState extends State<SystemPage> {
                 ),
                 child: Row(
                   children: [
-                    StatusDot(up: true),
+                    const StatusDot(up: true),
                     const SizedBox(width: 8),
                     Expanded(
                       child: Text(

@@ -300,13 +300,13 @@ class _TerminalPageState extends State<TerminalPage> {
       _builtNonce.remove(id);
       if (_current == id) _current = rest.isNotEmpty ? rest.last.id : null;
     });
-    _saveTabs();
+    unawaited(_saveTabs());
     try {
       await Api.termCloseSession(id);
     } catch (_) {
       /* 忽略（对齐 Web closeTab finally refreshAlive） */
     }
-    _refreshAlive();
+    unawaited(_refreshAlive());
     _syncPolling();
   }
 

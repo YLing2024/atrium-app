@@ -24,7 +24,7 @@ NotificationItem _item(
 void main() {
   group('pushMatches', () {
     test('优先按 id 匹配（标题不同也算命中）', () {
-      final target = PushTarget(id: 7, title: '别的标题', source: 'admin');
+      const target = PushTarget(id: 7, title: '别的标题', source: 'admin');
       expect(pushMatches(_item(7, title: '实际标题'), target), true);
       expect(pushMatches(_item(8), target), false);
     });

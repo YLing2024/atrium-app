@@ -28,9 +28,11 @@ Future<void> forceLogout() async {
     await Auth.logout();
     final nav = rootNavigatorKey.currentState;
     if (nav != null) {
-      nav.pushAndRemoveUntil(
-        MaterialPageRoute(builder: (_) => const LoginPage()),
-        (route) => false,
+      unawaited(
+        nav.pushAndRemoveUntil(
+          MaterialPageRoute(builder: (_) => const LoginPage()),
+          (route) => false,
+        ),
       );
     }
   } finally {
