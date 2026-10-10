@@ -1,5 +1,9 @@
 [English](README.en.md) | [简体中文](README.md)
 
+> **This project is no longer maintained (as of 2026-10-10).** No further features or builds; use `atrium-console` (the web console, installable as a PWA) for day-to-day admin work.
+>
+> The code is kept here for reference only; build and migration notes still apply.
+
 # atrium-app
 
 The Android client (Flutter) for the personal site admin, the mobile counterpart of `atrium-console`.

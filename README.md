@@ -1,5 +1,9 @@
 [简体中文](README.md) ｜ [English](README.en.md)
 
+> **本项目已停止维护（2026-10-10）。** 不再接收功能更新与构建；管理后台的日常使用请改用 `atrium-console`（Web 端，已支持安装为 PWA）。
+>
+> 代码保留在此仅供查阅，构建与迁移说明仍有效。
+
 # atrium-app
 
 个人网站管理后台的 Android 客户端（Flutter），`atrium-console` 的移动端对应物。
