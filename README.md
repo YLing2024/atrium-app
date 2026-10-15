@@ -3,6 +3,8 @@
 > **本项目已停止维护（2026-10-10）。** 不再接收功能更新与构建；管理后台的日常使用请改用 `atrium-console`（Web 端，已支持安装为 PWA）。
 >
 > 代码保留在此仅供查阅，构建与迁移说明仍有效。
+>
+> 后端也已用 Go 重写并迁移：[YLing2024/admin-server-go](https://github.com/YLing2024/admin-server-go)（原 `atrium-api` 已归档）。
 
 # atrium-app
 
